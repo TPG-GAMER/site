@@ -1,0 +1,173 @@
+.center{
+    text-align: center;
+} 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+nav {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+    position: sticky;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display: flex;
+    background-color:none;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+}
+
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin:5px;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    z-index:9;
+    height: 500px;
+    align-items: center;
+    opacity: 0.83;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #fff;
+}
+.banner img{
+    border-radius: 50%;
+    height: 200px;
+}
+.banner h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.banne span{
+    font-size: 40px;
+}
+.banner h2{
+    font-family: monospace;
+}
+
+.height{
+    min-height: 35px;
+}
+
+#updates{
+    color: blue;
+}
+
+
+#divider{
+    border: 3px solid skyblue;
+}
+
+
+.img{
+    float:right;
+    width: 85%;
+    height: 600px;
+    background-color: red;
+    z-index: 1;
+}
+
+hr{
+    border-top: green solid 5px;
+    border-bottom: blue solid 5px;
+    border-left: rgb(255, 0, 255) solid 5px;
+    border-right: yellow solid 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.rd{
+    position: relative;
+    size: 100%;
+    width: 1285px;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    border-top: green solid 5px;
+    border-bottom: blue solid 5px;
+    border-left: rgb(255, 0, 255) solid 5px;
+    border-right: yellow solid 5px;
+    margin-left: 2.5%;
+}
+
+.sidebar {
+    float: left;
+    margin-top: 1px;
+    width: 200px;
+    height: 600px;
+    background-color: red;
+    position:fixed;
+}
+
+.sidebar-button {
+    height: 50px;
+    width: 198px;
+    border-radius: 0px;
+    border: 2px white double;
+    background-color: white;
+}
+
+.body {
+    scroll-behavior:smooth;
+    transition-duration: 3s;
+}
+
+.sidebar-button:hover {
+    cursor: pointer;
+}
+
+.main{
+    height: 92vh;
+    background-color: rgb(0, 225, 255);
+}
+
+.content{
+    width: 33%;
+    border: 2px black solid;
+    height: 250px;
+    display: inline-block;
+    background-color: orange;
+}
+
